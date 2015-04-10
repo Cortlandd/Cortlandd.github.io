@@ -175,7 +175,7 @@ ul#nav {
 
 .cloud-1, .cloud-2 {
     width: 82px; height: 90px;
-    background-image: url(../../personalsite/img/1.png);
+    background-image: url(../img/1.png);
     -webkit-animation-duration: 120s;
     -moz-animation-duration: 120s;
     -ms-animation-duration: 120s;
@@ -186,7 +186,7 @@ ul#nav {
 .cloud-3, .cloud-4 {
     top: 70px;
     width: 159px; height: 90px;
-    background-image: url(../../personalsite/img/2.png);
+    background-image: url(../img/2.png);
     -webkit-animation-duration: 80s;
     -moz-animation-duration: 80s;
     -ms-animation-duration: 80s;
@@ -197,7 +197,7 @@ ul#nav {
 .cloud-5, .cloud-6 {
     top: 30px;
     width: 287px; height: 62px;
-    background-image: url(../../personalsite/img/3.png);
+    background-image: url(../img/3.png);
     -webkit-animation-duration: 140s;
     -moz-animation-duration: 140s;
     -ms-animation-duration: 140s;
@@ -208,7 +208,7 @@ ul#nav {
 .cloud-7, .cloud-8 {
     top: 100px;
     width: 94px; height: 81px;
-    background-image: url(../../personalsite/img/4.png);
+    background-image: url(../img/4.png);
     -webkit-animation-duration: 90s;
     -moz-animation-duration: 90s;
     -ms-animation-duration: 90s;
@@ -231,7 +231,7 @@ ul#nav {
 .horizon {
     top: 350px;
     width: 1800px; height: 50px;
-    background: url(../../personalsite/img/ground-line.png) repeat-x;
+    background: url(../img/ground-line.png) repeat-x;
     -webkit-animation-name: prop-600;
     -moz-animation-name: prop-600;
     -ms-animation-name: prop-600;
@@ -247,7 +247,7 @@ ul#nav {
 .shadow {
     width: 220px; height: 70px;
     left: 85px; bottom: 110px;
-    background-image: url(../../personalsite/img/ground-shadow.png);
+    background-image: url(../img/ground-shadow.png);
     -webkit-animation-name: shadow;
     -moz-animation-name: shadow;
     -ms-animation-name: shadow;
