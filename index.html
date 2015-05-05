@@ -11,6 +11,9 @@
     <!-- Title -->
     <title>Cortlands Code</title>
 
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=EB+Garamond" />
+
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -67,16 +70,13 @@
                 <div class="section-container">
                     <div class="about">
                         <h1>ABOUT ME</h1>
-                        <p><img src="img/me.jpg" alt="Baby Picture of me and my 'did I push to github last night?'
-                         face"/>My name is Cortland
-                            Walker. I am currently a student at Lincoln Land Community College in Springfield, Illinois
-                            pursuing an Associates Degree in Computer Science. In my free time I enjoy music, studying
-                            linguistics (teaching myself spanish), and studying anatomy. I'm always experimenting to expand my horizon.
-                            Programming, specifically Web Development, is something I ventured into about 9 months ago. Started
-                            working with Ruby and have been going strong with it every since. My goal is to become a Master of the Ruby
-                            programming language, and all things Ruby.</p>
-
-                        <p>Welcome to my Site, and enjoy your stay.</p>
+                        <div class="about-left">
+                            <img src="img/me.jpg" alt="Baby Picture of me and my 'did I push to github last night?'
+                         face"/>
+                        </div>
+                        <div class="about-right">
+                            <p>My name is Cortland Walker.</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -114,12 +114,12 @@
                             </ul>
 
                             <ul id="bars">
-                                <li><div data-percentage="15" class="bar"></div><span>C</span></li>
-                                <li><div data-percentage="12" class="bar"></div><span>VB.Net</span></li>
-                                <li><div data-percentage="47" class="bar"></div><span>PHP</span></li>
-                                <li><div data-percentage="80" class="bar" style="background: #B5222D"></div><span>Ruby</span></li>
+                                <li><div data-percentage="5" class="bar"></div><span>C</span></li>
+                                <li><div data-percentage="5" class="bar"></div><span>VB.Net</span></li>
+                                <li><div data-percentage="20" class="bar"></div><span>PHP</span></li>
+                                <li><div data-percentage="70" class="bar" style="background: #B5222D"></div><span>Ruby</span></li>
                                 <li><div data-percentage="30" class="bar"></div><span>Python</span></li>
-                                <li><div data-percentage="20" class="bar"></div><span>Node.js</span></li>
+                                <li><div data-percentage="15" class="bar"></div><span>Javascript</span></li>
                             </ul>
                         </div>
 
@@ -143,11 +143,12 @@
                             </ul>
 
                             <ul id="bars" style="width:500px;">
-                                <li><div data-percentage="84" class="bar" style="background: #B5222D"></div><span>Rails</span></li>
-                                <li><div data-percentage="39" class="bar"></div><span>CSS</span></li>
+                                <li><div data-percentage="79" class="bar" style="background: #B5222D"></div><span>Rails</span></li>
+                                <li><div data-percentage="50" class="bar"></div><span>CSS</span></li>
                                 <li><div data-percentage="50" class="bar"></div><span>HTML</span></li>
-                                <li><div data-percentage="20" class="bar"></div><span>Javascript</span></li>
+                                <li><div data-percentage="15" class="bar"></div><span>Javascript</span></li>
                                 <li><div data-percentage="40" class="bar"></div><span>JQuery</span></li>
+                                <li><div data-percentage="25" class="bar"></div><span>AngularJS</span></li>
                             </ul>
                         </div>
                     </div>
@@ -173,52 +174,51 @@
             <section class="section" id="resume">
                 <div class="section-container">
                     <div class="resume">
-                        <ul style="text-align:center">
+                        <div id="resume-header" style="text-align:center">
                             <h1 id="resume-title">RESUME</h1>
+                            <h2>Cortland Walker</h2>
+                            <span><a href="http://github.com/Cortlandd">Github</a> |
+                                <a href="http://linkedin.com/in/cortlandwalker">Linkedin</a></span>
+                            <span><p><b>Springfield, IL 62704 | (630) 362-7330 | cortland1568@gmail.com</b></p></span>
+                            <h2>RUBY ON RAILS STORMTROOPER, FUTURE JEDI</h2>
+                        </div>
 
-                            <p>Cortland Walker</p>
-                            <p>Treviso Drive Springfield, IL 62704</p>
-                            <p>| (630) 362-7330 |</p>
-                            <p>cortland1568@gmail.com</p>
-                            <p>http://cortlandd.github.io</p>
-                        </ul>
+                        <p>Self taught skills in Ruby on Rails, web frameworks and other programming languages, with
+                            a passion for learning new things.</p>
 
-                        <br />
+                        <br/>
 
-                        <hr />
-                        <h1>EDUCATION</h1>
-                        <hr />
+                        <h2>TECHNICAL SKILLS</h2>
 
-                        <p><b> Glenwood High School (2012 - 2014)</b></p>
-                        <p> - High School Diploma</p>
-                        <p><b>Capital Area Career Center (2012 - 2014)</b></p>
-                        <p> - CCNA: Introduction to Networks, Routing &amp; Switching Essentials</p>
-                        <p><b> Lincoln Land Community College (2014 - Present) </b></p>
-                        <p> - Pursing Associates Degree in Computer Science </p>
-
-                        <br />
-
-                        <hr />
-                        <h1>SKILLS</h1>
-                        <hr />
-
-                        <p><b>PROGRAMMING</b></p>
-                        <p> - Self-Taught: Ruby, Basic PHP/MySQL</p>
-                        <p><b>WEB DEVELOPMENT</b></p>
-                        <p> - HTML, CSS, Bootstrap, Rails Web Framework</p>
-                        <p><b>NETWORKING</b></p>
-                        <p> - Router & Switch Configuration</p>
-                        <p> - Basic Routing and Switching Troubleshooting</p>
-                        <p> - Patch Panels and CAT standard cable implementations</p>
-                        <p><b>OTHER</b></p>
-                        <p> - Eager Leaner, Communication, Team Player</p>
+                        <p>PROFICIENT</p>
+                        <span>Ruby on Rails, HTML5, CSS3, JQuery, Twitter Bootstrap, Network Cabling, Patch Panels</span>
+                        <p>KNOWLEDGEABLE</p>
+                        <span>Ruby, Python, AngularJS, Network Programming, Linux, Git, Version Control, Routing</span>
+                        <p>USED PREVIOUSLY</p>
+                        <span>C, VB.Net, PHP, Pure Javascript</span>
 
                         <br />
 
-                        <hr />
-                        <h1>EXPERIENCE</h1>
-                        <hr />
+                        <h2>PROJECTS</h2>
 
+                        <p><b>Engagr, November 2014</b></p>
+                        <p>Engagr is a Ruby on Rails application used to search Instagram photos taken in a specific area.</p>
+                        <p><a href="http://github.com/cortlandd/location-instagram">Source Repository</a> | Technology: Ruby on Rails, Twitter Bootstrap, JQuery</p>
+                        <a href="http://engagr.herokuapp.com"><i>http://engagr.herokuapp.com</i></a>
+
+                        <p><b>Sharades, April 2015</b></p>
+                        <p>Sharades is a Portfolio Website built for a friend who is studying MakeUp Artistry at the Joe Blasco</p>
+                        <p><a href="http://github.com/Sharades/sharades.github.io">Source Repository</a> | Technologies: HTML5, CSS3, JQuery, Twitter Bootstrap</p>
+                        <a href="http://sharades.github.io"><i>http://sharades.github.io</i></a>
+
+                        <p><b>Personal Blog, April 2015</b></p>
+                        <p>Wordpress, blogspot, etc aren't for me, Rails is. My personal blog is currently under
+                            construction, but it is built from scratch using Ruby on Rails and Normalize CSS Framework. (Not Yet Published)</p>
+                        <p><a href="https://github.com/Cortlandd/Personal-Blog">Source Repository</a> | Technologies: HTML5, CSS3, JQuery,
+                            Twitter Bootstrap</p>
+
+                        <!-- =================================================================================== -->
+                        <br/>
                         <p><b>Student Worker, Lincoln Land Community College</b></p>
                         <p><i>October 2014 - PRESENT</i></p>
                         <p> Duties included:</p>
