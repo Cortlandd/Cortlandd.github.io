@@ -307,7 +307,7 @@ ul#nav {
 
 .about {
     height: 100%;
-    width: 40%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -320,7 +320,7 @@ ul#nav {
 }
 
 .about p {
-    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-family: EB Garamond;
     color: #252D37;
     letter-spacing: 1px;
     font-size: 22px;
@@ -330,6 +330,14 @@ ul#nav {
 .about img {
     border-radius: 10px;
     width: 200px;
+}
+.about-left {
+    float: left;
+    width: 30%;
+}
+.about-right {
+    float: right;
+    width: 55%;
 }
 
 /*________________________   Development   ________________________*/
@@ -469,13 +477,16 @@ ul#nav {
 /*________________________   Resume   ________________________*/
 
 .resume {
-    line-height: 1;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    line-height: 2;
+}
+.resume span {
+    font-weight: normal;
+    color: #333;
 }
 #resume-title {
-    font-family:'brandon-grotesque', Helvetica, sans-serif, bold;
     color: #609491;
     letter-spacing: 5px;
     font-size: 60px;
@@ -484,14 +495,28 @@ ul#nav {
 .resume h1 {
     text-align: center;
     font-family:'brandon-grotesque', Helvetica, sans-serif, bold;
-    color: #7F8C8D;
+    color: #333;
     letter-spacing: 5px;
     font-size: 32px;
     text-align: center;
 }
-.resume p {
-    font-family:"Times New Roman", cursive, sans-serif;
+.resume h2 {
+    font-family:'brandon-grotesque', Helvetica, sans-serif, bold;
     color: #333;
+    letter-spacing: 5px;
+    font-size: 32px;
+}
+.resume p {
+    font-family: 'EB Garamond';
+    color: #000;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 16px;
+}
+.resume a {
+    font-family:'EB Garamond';
+    text-decoration: none;
+    color: brown;
+}
+.resume a:hover {
+    color: #333;
 }
