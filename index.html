@@ -1,320 +1,189 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <!-- Meta -->
-    <meta charset="UTF-8">
-    <meta http-equiv="author" content="Cortland Walker" >
-    <meta name="keywords" content="developer, web, design, springfield, illinois">
-    <meta name="description" content="The playground of Cortland Walker. A Web Developer based in the Midwest" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <!-- Title -->
     <title>Cortlands Code</title>
 
-    <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=EB+Garamond" />
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-</head>
-    <body>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-        <div class="head-stuff">
-            <div id="header">
-                <div class="my-name">
-                    <a href="index.html">Cortland</a>
-                </div>
-            </div>
-            <div class="nav-container">
-                <ul id="nav">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#development">Development</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="container">
-
-            <section class="section" id="home">
-                <div class="section-container">
-                    <div id="canvas">
-                        <div class="sky">
-                            <div class="cloud-1"></div>
-                            <div class="cloud-2"></div>
-                            <div class="cloud-3"></div>
-                            <div class="cloud-4"></div>
-                            <div class="cloud-5"></div>
-                            <div class="cloud-6"></div>
-                            <div class="cloud-7"></div>
-                            <div class="cloud-8"></div>
-                            <img src="img/birds2.gif" alt="Birds" style="margin-left: 200px;"/>
-                        </div>
-
-                        <div class="horizon"></div>
-
-                            <img src="img/huey3-reverse.gif" alt="Huey Freeman"
-                             style="margin-top: 200px;margin-left: 100px;"/>
-
-                        <div class="shadow"></div>
-                    </div>
-                </div>
-            </section>
+  <body>
 
 
-            <section class="section" id="about">
-                <div class="section-container">
-                    <div class="about">
-                        <h1>ABOUT ME</h1>
-                        <div class="about-left">
-                            <img src="img/me.jpg" alt="Baby Picture of me and my 'did I push to github last night?'
-                         face"/>
-                        </div>
-                        <div class="about-right">
-                            <p>My name is Cortland Walker.</p>
+    <div class="container">
+    	<div class="col-lg-6 col-lg-offset-3">
+    	
+    		<!-- ===== vCard Navigation ===== -->
+    		<div class="row w">
+    			<div class="col-md-4">
+    				<img class="img-responsive" src="assets/img/avatar.jpg" alt="">
+					<ul class="nav nav-tabs nav-stacked" id="myTab">
+					  <li class="active"><a href="#about">About</a></li>
+					  <li><a href="#profile">Profile</a></li>
+					  <li><a href="#portfolio">Portfolio</a></li>
+					  <li><a href="#contact">Contact</a></li>
+					</ul>    			
+				</div><!-- col-md-4 -->
 
-                            <p>.....</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    		<!-- ===== vCard Content ===== -->
+    			<div class="col-md-8">
+	    			<div class="tab-content">
+	    			
+	    			  <!-- ===== First Tab ===== -->
+					  <div class="tab-pane active" id="about">
+					  	<h3>Cortland Walker</h3>
+					  	<h5>Developer</h5>
+					  	<hr>
+					  	<p>My name is Cortland Walker. I'm a 19 year old former student from Chicago, IL currently residing in Hampton, VA</p> 
+					  	<p>I have a very diverse skillset, mostly self taught, in technology including Web/API Development, Android Development, and Networking.</p>
+					  	<p class="pull-right red"><i class="icon-ruby"></i></p>
+					  </div><!-- tab about -->
+					  
+	    			  <!-- ===== Second Tab ===== -->
+					  <div class="tab-pane" id="profile">
+					  	<h4><i class="icon-briefcase"></i> Job Experience</h4>
+					  	<p class="sm">
+					  		<grey><a href="http://saturnup.com" target="_blank">Saturnup</a></grey> | June 2015 - Present | Ruby on Rails Engineer Intern<br/>
+					  		<grey>Lincoln Land Community College</grey> | October 2014 - May 2015 | Information Systems, Student Intern<br/>
+					  		<grey><a href="http://4thshore.com" target="_blank">4thShore</a></grey> | December 2014 - Janurary 2015 | Hired Web Designer<br/>
+					  	</p>
+					  
+						  <h4><i class="icon-file-text-alt"></i> Education</h4>
+					  	<p class="sm">
+					  		<grey>Computer Science Courses</grey> | Lincoln Land Community College | 2014 - 2015<br/>
+					  		<grey>High School Diploma</grey> | Glenwood High School | 2012 - 2014<br/>
+					  		<grey>Intependent Courses</grey> | Edx.org | <a href="https://www.edx.org/course/engineering-software-service-uc-berkeleyx-cs169-1x" target="_blank">Engineering Software as a Service</a>, <a href="https://www.edx.org/course/introduction-mobile-application-hkustx-comp107x" target="_blank">Introduction to Mobile Application Development using Android</a><br/>
+					  	</p>
+					  	
+						  <h4><i class="icon-trophy"></i> Awards</h4>
+					  	<p class="sm">
+					  		<grey>Overall 2nd place/ Technical Competence 1st place</grey> | Illinois High School Cyber Defense Competition at Illinois State University<br/>
+					  		<grey>571st of 1986</grey> | <a href="https://picoctf.com/" target="_blank">PicoCTF</a> 2013 Capture the Flag Cyber Competition<br/>
+					  		<grey>Perfect Attendance</grey> | Cisco Networking Academy<br/>
+					  		<grey>Distinguished Honors for Outstanding Achievment</grey> | Cisco Networking Academy<br/>
+					  		<grey>4th Place</grey> | Illinois State Internetworking Competition<br/>
+					  	</p>
+					  	  <h4><i class="icon-code"></i> Skills</h4>
+					  	<p class="sm">
+					  		<grey>Development</grey> | Ruby on Rails, Scala/Play, TDD/BDD, API Development, Android Development<br/>
+					  	</p>
+					  	  <h4><i class="icon-align-justify"></i> Organizations/Activities</h4>
+					  	<p class="sm">
+					  		<grey>Meetup Groups</grey> | Ruby on Rails Champaign-Urbana, 757.rb, Hampton Roads PHP User-group, Functional Programmers<br/>
+					  	</p>
+					  </div><!-- Tab Profile -->
+					  
+	    			  <!-- ===== Third Tab ===== -->
+					  <div class="tab-pane" id="portfolio">
+						  <div class="row">
+							  <div class="col-xs-6 centered">
+							  	<img class="img-responsive" src="assets/img/vimeo.png" alt="">
+							  	<a href="https://github.com/Cortlandd/vimeo_rails/blob/master/README.md" target="_blank"><h6><i class="icon-link"></i> Vimeo v3 API Gem</h6></a>
+							  </div><!-- col-xs-6 -->
+							  <div class="col-xs-6 centered">
+							  	<img class="img-responsive" src="assets/img/saturnup.png" alt="">
+							  	<a href="https://gist.github.com/Cortlandd/0d123df4b25903c9b84d" target="_blank"><h6><i class="icon-link"></i> Internship | Code Sample</h6></a>
+							  </div><!-- col-xs-6 -->
+						  </div><!-- row -->
+						  
+						  <div class="row">
+						  	<br>	
+							  <div class="col-xs-6 centered">
+							  	<img class="img-responsive" src="assets/img/python-router.png" alt="">
+							  	<a href="https://github.com/Cortlandd/python-cloginrc-practice"><h6><i class="icon-link" target="_blank"></i> Python Routing Script</h6></a>
+							  </div><!-- col-xs-6 -->
+							  <div class="col-xs-6 centered">
+							  	<img class="img-responsive" src="assets/img/instagramsearch.png" alt="Engagr">
+							  	<a href="https://github.com/Cortlandd/location-instagram" target="_blank"><h6><i class="icon-link"></i> Engagr</h6></a>
+							  </div><!-- col-xs-6 -->
+						  </div><!-- row -->
 
-            <section class="section" id="development">
-                <div class="section-container">
-                    <div class="development">
-                        <h1>DEVELOPMENT</h1>
-
-                        <h1 style="color:#B5222D;">Tools of the Trade</h1>
-                        <ul id="tools">
-                            <li><a href="http://www.sublimetext.com/3">Sublime Text 3</a></li>
-                            <li><a href="https://www.jetbrains.com/ruby/">RubyMine</a></li>
-                            <li><a href="http://github.com">Git</a></li>
-                        </ul>
-
-                        <h1 style="color:#B5222D;">Programming</h1>
-                        <div id="chart">
-                            <ul id="numbers">
-                                <li><span>Goal</span></li>
-                                <li><span>90%</span></li>
-                                <li><span>80%</span></li>
-                                <li><span>70%</span></li>
-                                <li><span>60%</span></li>
-                                <li><span>50%</span></li>
-                                <li><span>40%</span></li>
-                                <li><span>30%</span></li>
-                                <li><span>20%</span></li>
-                                <li><span>10%</span></li>
-                                <li><span>0%</span></li>
-                            </ul>
-
-                            <ul id="bars">
-                                <li><div data-percentage="5" class="bar"></div><span>C</span></li>
-                                <li><div data-percentage="5" class="bar"></div><span>VB.Net</span></li>
-                                <li><div data-percentage="10" class="bar"></div><span>PHP</span></li>
-                                <li><div data-percentage="60" class="bar" style="background: #B5222D"></div><span>Ruby</span></li>
-                                <li><div data-percentage="20" class="bar"></div><span>Python</span></li>
-                                <li><div data-percentage="20" class="bar"></div><span>Javascript</span></li>
-                            </ul>
-                        </div>
-
-                        <br />
-                        <br />
-
-                        <h1 style="color:#B5222D;">Development</h1>
-                        <div id="chart">
-                            <ul id="numbers">
-                                <li><span>100%</span></li>
-                                <li><span>90%</span></li>
-                                <li><span>80%</span></li>
-                                <li><span>70%</span></li>
-                                <li><span>60%</span></li>
-                                <li><span>50%</span></li>
-                                <li><span>40%</span></li>
-                                <li><span>30%</span></li>
-                                <li><span>20%</span></li>
-                                <li><span>10%</span></li>
-                                <li><span>0%</span></li>
-                            </ul>
-
-                            <ul id="bars" style="width:500px;">
-                                <li><div data-percentage="65" class="bar" style="background: #B5222D"></div><span>Rails</span></li>
-                                <li><div data-percentage="40" class="bar"></div><span>HTML/CSS</span></li>
-                                <li><div data-percentage="40" class="bar"></div><span>Ember(-cli)</span></li>
-                                <li><div data-percentage="40" class="bar"></div><span>APIs</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section" id="projects">
-                <div class="section-container">
-                    <div class="projects">
-                        <h1>PROJECTS</h1>
-                        <a href="http://sharades.github.io" target="_blank"><img
-                                title="Sharades" src="img/sharades.png" height="250" width="250"></a>
-                        <a href="http://engagr.herokuapp.com" target="_blank"><img
-                                title="Engagr" src="img/instagramsearch.png" height="250" width="250"></a>
-                        <a href="http://4thshore.com" target="_blank"><img
-                                title="4thShore" src="img/4thshore.png" height="250" width="250"></a>
-                        <h1>IN PROGRESS or NOT PUBLISHED</h1>
-                        <p><a href="https://github.com/Cortlandd/Personal-Blog">Personal Blog</a></p>
-                        <p><a href="https://github.com/Cortlandd/PHP-FRAMEWORK">Custom PHP Framework</a></p>
-                        <p><a href="https://github.com/Cortlandd/Moviestore">Movie Store</a></p>
-                        <p><a href="https://github.com/Cortlandd/RailsRTC">Rails Web RTC</a></p>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="section" id="resume">
-                <div class="section-container">
-                    <div class="resume">
-                        <div id="resume-header" style="text-align:center">
-                            <h1 id="resume-title">RESUME</h1>
-                            <h2>Cortland Walker</h2>
-                            <span><a href="http://github.com/Cortlandd">Github</a> |
-                                <a href="http://linkedin.com/in/cortlandwalker">Linkedin</a></span>
-                            <span><p><b>Hampton, VA 62704 | (630) 362-7330 | cortland1568@gmail.com</b></p></span>
-                            <h2>RUBY ON RAILS STORMTROOPER</h2>
-                        </div>
-
-                        <p>Self taught skills in Ruby on Rails, web frameworks and other programming languages, with
-                            a passion for learning new things.</p>
-
-                        <br/>
-
-                        <h2>TECHNICAL SKILLS</h2>
-
-                        <p>PROFICIENT</p>
-                        <span>Ruby on Rails, HTML5, CSS3, JQuery, Twitter Bootstrap, Network Cabling, Patch Panels</span>
-                        <p>KNOWLEDGEABLE</p>
-                        <span>Ruby, Scala, Python, Ember-Cli, Network Programming, Linux, Git, Version Control, Routing, Android Development</span>
-                        <p>USED PREVIOUSLY</p>
-                        <span>C, PHP, Pure Javascript</span>
-
-                        <br />
-
-                        <h2>PROJECTS</h2>
-
-                        <p><b>Engagr, November 2014</b></p>
-                        <p>Engagr is a Ruby on Rails application used to search Instagram photos taken in a specific area.</p>
-                        <p><a href="http://github.com/cortlandd/location-instagram">Source Repository</a> | Technology: Ruby on Rails, Twitter Bootstrap, JQuery</p>
-                        <a href="http://engagr.herokuapp.com"><i>http://engagr.herokuapp.com</i></a>
-
-                        <p><b>Sharades, April 2015</b></p>
-                        <p>Sharades is a Portfolio Website built for a friend who is studying MakeUp at the Joe Blasco School in Orlando, FL</p>
-                        <p><a href="http://github.com/Sharades/sharades.github.io">Source Repository</a> | Technologies: HTML5, CSS3, JQuery, Twitter Bootstrap</p>
-                        <a href="http://sharades.github.io"><i>http://sharades.github.io</i></a>
-
-                        <!-- =================================================================================== -->
-                        <br/>
-                        <p><b>Student Worker, Lincoln Land Community College</b></p>
-                        <p><i>October 2014 - PRESENT</i></p>
-                        <p> Duties included:</p>
-                        <p> - Assisted the Systems Administration by responding Help Desk Tickets</p>
-                        <p> - Cable termination including CAT6 &amp; 7 standards. And working with Patch Panels for
-                            switch connection.</p>
-                        <p> - Assisted the Network Administrator in reconfiguring Cisco, Dell, and Avaya  standard Routers</p>
-                        <p> - Assisted the Network Administrator in building Python Scripts to be executed from the Command
-                            Line. The Script would essentially read through a text file of router commands, read each
-                            line, and execute them 1 by 1 in the terminal as it reads.</p>
-
-                        <br />
-
-                        <p><b>Freelance, Web Designer</b></p>
-                        <p><i>December 2014 - January 2015</i></p>
-                        <p> - Hired by the creator of the site to change the layout for different music artists. The Artists
-                            were selected by the region they were born. (eg. Midwest, East Coast)</p>
-
-                        <br />
-
-                        <hr />
-                        <h1>PROJECTS</h1>
-                        <hr />
-
-                        <p><b>Engagr</b></p>
-                        <p> - Engagr is a Web Application I built using Ruby on Rails, and the Instagram API. The
-                            usage of Engagr is to search for recently taken Instagram photos in a given location.</p>
-
-                        <br/>
-
-                        <hr />
-                        <h1>AWARDS AND ACHIEVEMENTS | ACTIVITIES</h1>
-                        <hr />
-
-                        <p><b>Triton College (2010-2011)</b></p>
-                        <p> - Certificate of Completion for Forensics</p>
-                        <p><b>Capital Area Career Center (2012-2014)</b></p>
-                        <p> - Competed in the Illinois High School Cyber Defense Competition at Illinois State
-                            University; Technical Competence 1st Place, Overall Placement 2nd Place</p>
-                        <p> - Competed in the PicoCTF 2013 Capture the Flag Cyber Competition placing 571st
-                            of 1986 contestants</p>
-                        <p> - Student of the Month, March 2013</p>
-                        <p> - Student of the Month, January 2014</p>
-                        <p> - Certificate of Service For Demonstration of Routing and Switching Implementation During the
-                            Centers Open House</p>
-                        <p> - Perfect Attendance Award in the Cisco Networking Program</p>
-                        <p> - Certificate of Service for Demonstration of the Cisco Curriculum during the Centers second
-                            Open House</p>
-                        <p> - Distinguished Honors Award In Recognition of Outstanding Achievement in Cisco Networking</p>
-                        <p> - Placed 4th in the SkillsUSA Illinois State Internetworking Competition</p>
-                        <p><b>Lincoln Land Community College (2013 - 2014)</b></p>
-                        <p> - Gained the superior accomplishment of earning a 4.00 grade point average based on
-                            six to eleven credit hours taken during the Spring semester, 2014.</p>
-                        <p><b>University of Illinois Springfield (2013 - 2014)</b></p>
-                        <p> - Participant in the Digital Forensics Challenge</p>
-                        <p> - Attended the Cyber Defense and Disaster Recovery Conference 2013/2014</p>
-
-                    </div>
-                </div>
-            </section>
-
-        </div>
+						  <div class="row">
+							  <div class="col-xs-6 centered">
+							  	<img class="img-responsive" src="assets/img/p01.png" alt="">
+							  	<a href="http://sharades.github.io" target="_blank"><h6><i class="icon-link"></i> Sharades</h6></a>
+							  </div><!-- col-xs-6 -->
+							  <div class="col-xs-6 centered">
+							  	<img class="img-responsive" src="assets/img/p01.png" alt="">
+							  	<a href="#"><h6><i class="icon-link"></i> BLANK</h6></a>
+							  </div><!-- col-xs-6 -->
+						  </div><!-- row -->
+					  </div><!-- /Tab Portfolio -->
+					  
+	    			  <!-- ===== Fourth Tab ===== -->
+					  <div class="tab-pane" id="contact">
+						  <h4>Contact Information</h4>
+						  <hr>
+						  <div class="row">
+							  <div class="col-xs-6">
+								  <p class="sm">
+								  	<i class="icon-globe"></i> - cortlandd.github.io <br/>
+								  </p>
+							  </div><!-- col-xs-6 -->
+							  
+							  <div class="col-xs-6">
+								  <p class="sm">
+								  	<i class="icon-phone"></i> - (630) 362-7330 <br/>
+									<i class="icon-envelope"></i> -cortland1568@gmail.com  
+								  </p>
+							  </div><!-- col-xs-6 -->
+						  </div><!-- row -->
+						  
+						  <h4>Social Links</h4>
+						  <hr>
+						  <div class="row">
+							  <div class="col-xs-6">
+								  <p class="sm">
+								  	<i class="icon-github"></i> - <a href="http://github.com/Cortlandd" target="_blank">Cortlandd</a> <br/>
+								  	<i class="icon-linkedin"></i> - <a href="http://linkedin.com/in/cortlandwalker" target="_blank">/in/cortlandwalker</a> <br/>
+								  	<grey>Angel.co</grey> - <a href="https://angel.co/cortland-walker" target="_blank">/cortland-walker</a>
+								  </p>
+							  </div><!-- col-xs-6 -->
+							  
+							  <div class="col-xs-6">
+								  <p class="sm">
+								  </p>
+							  </div><!-- col-xs-6 -->
+						  </div><!-- row -->
+					  </div><!-- Tab Contact -->
+					  
+					</div><!-- Tab Content -->
+    			</div><!-- col-md-8 -->
+    		</div><!-- row w -->
+    	</div><!-- col-lg-6 -->
+    </div><!-- /.container -->
 
 
-<!-- Javascript -->
-<script>
-    $(function() {
-        $("#bars li .bar").each( function( key, bar ) {
-            var percentage = $(this).data('percentage');
-
-            $(this).animate({
-                'height' : percentage + '%'
-            }, 1000);
-        });
-    });
-</script>
-
-<script>
-    var current_item = 0;
-
-    // few settings
-    var section_hide_time = 1300;
-    var section_show_time = 1300;
-
-    // jQuery stuff
-    jQuery(document).ready(function($) {
-
-        // Switch section
-        $("a", ".nav-container").click(function()
-        {
-            if( ! $(this).hasClass('active') ) {
-                current_item = this;
-                // close all visible divs with the class of .section
-                $('.section:visible').fadeOut( section_hide_time, function() {
-                    var new_section = $( $(current_item).attr('href') );
-                    new_section.fadeIn( section_show_time );
-                } );
-            }
-            return false;
-        });
-    });
-</script>
-
-    </body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	<script>
+	$('#myTab a').click(function (e) {
+	  e.preventDefault()
+	  $(this).tab('show')
+	})	
+	</script>    
+    
+  </body>
 </html>
