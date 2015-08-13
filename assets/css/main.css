@@ -46,7 +46,7 @@ p {
 
 /* Links */
 a {
-    color: #c9aa03;
+    color: #DDA700;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -109,7 +109,7 @@ a:after {
 	color: #555555;
 	cursor: default;
 	background-color: #ffffff;
-	border-left: 5px solid #c9aa03;
+	border-left: 5px solid #DDA700;
 	border-bottom-color: transparent;
 	border-top-color: transparent;
 	border-right-color: transparent;
@@ -152,7 +152,7 @@ i {
 }
 
 a h6{
-	color: #c9aa03;
+	color: #DDA700;
 }
 
 a h6:hover {
