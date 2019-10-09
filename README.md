@@ -1,1 +1,1 @@
-Personal Website. Includes information about, links to noteable project, etc.
+Personal Website. Includes personal projects, information about me, etc.
